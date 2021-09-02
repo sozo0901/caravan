@@ -4,14 +4,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  width: 90%; /* 横幅90％ */
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
 .main-visual {
   width: 100%; /* 横幅いっぱい */
   height: 300px; /* 高さ300px */
 }
+
 .main-visual-content {
   width: 350px;
   height: 300px;
 }
+
 .main {
   width: 840px; /* 横幅840px */
 
@@ -19,6 +28,7 @@
   justify-content: center; /* 子要素の横並び・中央寄せ */
   margin: 0 auto; /*中央寄せ（左右に余白がないとできない） */
 }
+
 .blog {
   width: 600px; /* 横幅600px */
   height: 1400px; /* 高さ1400px */
@@ -27,4 +37,9 @@
 .sidebar {
   width: 240px; /* 横幅240px */
   height: 1400px; /* 高さ1400px */
+}
+
+footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 120px; /* 高さ120px */
 }
