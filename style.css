@@ -9,3 +9,18 @@
   height: 120px; /* 高さ120px */
   background-color: red; /* 背景色red */
 }
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 300px; /* 高さ300px */
+  background-color: orange; /* 背景色orange */
+}
+.main {
+  width: 100%; /* 横幅いっぱい */
+  height: 1400px; /* 高さ1400px（多めに設定） */
+  background-color: green; /* 背景色green */
+}
+.footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 120px; /* 高さ120px */
+  background-color: blue; /* 背景色blue */
+}
