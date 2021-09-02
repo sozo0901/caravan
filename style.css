@@ -9,10 +9,24 @@ header {
   width: 90%; /* 横幅90％ */
   padding: 15px 0;
   margin: 0 auto;
+  text-align: center;
 }
 
-header .heading { /* headerタグ内のheadingクラスにのみ反映される */
+header .heading {
+  /* headerタグ内のheadingクラスにのみ反映される */
   font-size: 32px;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .main-visual {
