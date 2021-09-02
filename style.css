@@ -11,6 +11,10 @@ header {
   margin: 0 auto;
 }
 
+header .heading { /* headerタグ内のheadingクラスにのみ反映される */
+  font-size: 32px;
+}
+
 .main-visual {
   width: 100%; /* 横幅いっぱい */
   height: 300px; /* 高さ300px */
