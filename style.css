@@ -59,5 +59,8 @@ header .heading {
 
 footer {
   width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
+  height: 120px;
+  text-align: center; /* 高さ120px */
+  line-height: 120px;
+  background-color: #848282;
 }
