@@ -64,3 +64,7 @@ footer {
   line-height: 120px;
   background-color: #848282;
 }
+
+.footer-text {
+  color: #fff;
+}
