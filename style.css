@@ -78,10 +78,33 @@ main {
   line-height: 0.6;
 }
 
+.blog-box {
+  padding-top: 50px;
+}
+
 .blog-item {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.blog-image {
+  height: 180px;
+}
+
+.blog-text {
+  padding: 25px 0 0 30px;
+}
+
+.blog-text-heading {
+  padding-bottom: 15px;
+}
+
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
 }
 .category {
   display: inline-block;
