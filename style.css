@@ -45,14 +45,13 @@ header .heading {
 .main-visual-content {
   width: 40%;
   height: 300px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding-top: 105px;
 }
 
 .main-visual-text {
   color: #fff;
-
 }
 
 .main-visual-name {
@@ -60,22 +59,10 @@ header .heading {
   color: #fff;
 }
 
-.main {
-  width: 840px; /* 横幅840px */
-
-  display: flex; /* Flexboxの利用 */
-  justify-content: center; /* 子要素の横並び・中央寄せ */
-  margin: 0 auto; /*中央寄せ（左右に余白がないとできない） */
-}
-
 .blog {
-  width: 600px; /* 横幅600px */
-  height: 1400px; /* 高さ1400px */
 }
 
 .sidebar {
-  width: 240px; /* 横幅240px */
-  height: 1400px; /* 高さ1400px */
 }
 
 footer {
