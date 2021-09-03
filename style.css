@@ -61,7 +61,7 @@ header .heading {
 
 main {
   width: 800px;
-  display: flexbox;
+  display: flex;
   justify-content: center;
   margin: 0 auto;
   padding: 70px 0;
