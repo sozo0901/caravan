@@ -59,10 +59,27 @@ header .heading {
   color: #fff;
 }
 
+main {
+  width: 800px;
+  display: flexbox;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
 .blog {
+  width: 540px;
+  margin-right: 30px;
+}
+
+.blog-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
 }
 
 .sidebar {
+  width: 230px;
 }
 
 footer {
