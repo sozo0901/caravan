@@ -10,7 +10,11 @@ a {
   text-decoration: none;
 }
 
-header, nav, h2, .main-visual, footer {
+header,
+nav,
+h2,
+.main-visual,
+footer {
   font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
 
@@ -32,7 +36,6 @@ header {
   top: 22px;
   right: 22px;
 }
-
 
 header .heading {
   /* headerタグ内のheadingクラスにのみ反映される */
@@ -228,4 +231,27 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+/* すべての画面サイズで適用される設定 */
+.social i {
+  color: black;
+}
+/* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
+@media screen and (max-width: 1024px) {
+  .social i {
+    color: green;
+  }
+}
+/* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
+@media screen and (max-width: 768px) {
+  .social i {
+    color: red;
+  }
+}
+/* スマートフォンサイズ（425px）以下の際に適用される設定 */
+@media screen and (max-width: 425px) {
+  .social i {
+    color: blue;
+  }
 }
